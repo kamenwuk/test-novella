@@ -1,0 +1,8 @@
+@back bg00-hallway
+Unknown: Hey you!
+You turn around and see a familiar face
+@char Man
+NPC-A: Help me, and I'll reward you.
+@choice "Yes?"
+@choice "Of course yes!"
+@stop
