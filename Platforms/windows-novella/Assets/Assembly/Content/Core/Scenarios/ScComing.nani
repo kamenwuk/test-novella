@@ -3,6 +3,20 @@ Unknown: Hey you!
 You turn around and see a familiar face
 @char Man
 NPC-A: Help me, and I'll reward you.
-@choice "Yes?"
-@choice "Of course yes!"
+@choice "Yes?" goto:.AnswerIsNotVery
+@choice "Of course yes!" goto:.AnswerIsNotBad
+@stop
+
+# AnswerIsNotVery
+He waved at me to follow him.
+@addScore 5
+@goto .GoToTask 
+
+# AnswerIsNotBad
+NPC-A: Come with me, my friend
+@addScore 10
+@goto .GoToTask 
+
+# GoToTask
+@checkScore
 @stop

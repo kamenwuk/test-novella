@@ -144,6 +144,9 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: CoinsUI
+      pathPrefix: UI
+      guid: a225b84967910c04cb2b8dd213c6dcb1
   - Id: Scripts
     Resources:
     - name: Test
@@ -167,3 +170,5 @@ MonoBehaviour:
     - name: Man
       pathPrefix: Characters/Man
       guid: d1b0b2b426f739f45ae7d4a742a36924
+  - Id: Audio
+    Resources: []
