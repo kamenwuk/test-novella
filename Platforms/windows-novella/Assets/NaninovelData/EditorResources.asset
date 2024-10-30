@@ -152,9 +152,6 @@ MonoBehaviour:
       guid: c8730f23483f4894e99d8f5211269779
   - Id: Scripts
     Resources:
-    - name: Test
-      pathPrefix: Scripts
-      guid: e23b6de951b703845935667c307f24cb
     - name: ScComing
       pathPrefix: Scripts
       guid: d878e234c92f3f34387c60a57f308fc3
