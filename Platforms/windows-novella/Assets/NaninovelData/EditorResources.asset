@@ -147,6 +147,9 @@ MonoBehaviour:
     - name: CoinsUI
       pathPrefix: UI
       guid: a225b84967910c04cb2b8dd213c6dcb1
+    - name: PlayfieldByFindPairUI
+      pathPrefix: UI
+      guid: c8730f23483f4894e99d8f5211269779
   - Id: Scripts
     Resources:
     - name: Test
@@ -155,6 +158,12 @@ MonoBehaviour:
     - name: ScComing
       pathPrefix: Scripts
       guid: d878e234c92f3f34387c60a57f308fc3
+    - name: ScMiniGameFindPair
+      pathPrefix: Scripts
+      guid: a22b8c7d7a862e24692563a3b54fa227
+    - name: ScFinal
+      pathPrefix: Scripts
+      guid: f2550e03d9e9e9549a32689bfd6422fd
   - Id: Backgrounds/fd8d8f48-78a3-434c-88e0-9254017eff11
     Resources:
     - name: bg00-hallway

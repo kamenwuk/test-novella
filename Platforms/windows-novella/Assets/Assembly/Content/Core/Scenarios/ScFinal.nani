@@ -1,0 +1,10 @@
+@back bg00-hallway
+You: I did what you asked.
+@char Man visible:true
+@checkScore
+@if coins>5
+	NPC-A: You've helped me a lot, friend.
+@else
+	NPC-A: Thanks
+@endif
+@stop

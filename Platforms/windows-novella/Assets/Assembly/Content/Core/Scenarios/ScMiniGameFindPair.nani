@@ -1,0 +1,5 @@
+@back bg01-dorm
+NPC-A: Help find a thing and its pair
+@hidePrinter
+@showUI PlayfieldByFindPairUI
+@stop
